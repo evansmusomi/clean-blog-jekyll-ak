@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "styles";
+img {
+  max-width: 100%;
+}
+applause-button .count {
+  top: -50% !important;
+  font-size: smaller;
+}

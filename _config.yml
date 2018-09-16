@@ -1,0 +1,30 @@
+# Site settings
+title: Agnes Kinyanjui
+subtitle: Live and Love
+email: agnesmusomi16@gmail.com
+description: Life is what you make it. Choose today to make yours splendid.
+  Live and Love!
+author: Agnes Kinyanjui
+baseurl: ""
+url: ""
+
+# Social profiles
+twitter_username: wangui_agnes
+# facebook_username: ""
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-clean-blog
+paginate: 5
+paginate_path: "/blog/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Agnes Kinyanjui"
